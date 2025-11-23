@@ -171,12 +171,12 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               onSubmit={handleSubmit}
             >
-              <h3 className="text-4xl text-accent"> Let's work together </h3>
+              <h3 className="text-4xl text-accent"> Let&apos;s work together </h3>
               <p className="text-white/60">
                 Looking for a skilled partner to bring your ideas to life?
-                Whether it's building modern web applications, designing
+                Whether it&apos;s building modern web applications, designing
                 embedded systems, or crafting IoT solutions, I am here to help.
-                Let's collaborate and create something exceptional!
+                Let&apos;s collaborate and create something exceptional!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

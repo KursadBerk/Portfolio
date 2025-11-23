@@ -16,9 +16,9 @@ const Home = () => {
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
               <span className="text-xl">Full Stack Developer</span>
-              <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-accent">Berk Alkan</span></h1>
+              <h1 className="h1 mb-6">Hello I&apos;m <br /> <span className="text-accent">Berk Alkan</span></h1>
               <p className="max-w-[500px] mb-6 xl:mb-8 text-white/80">
-                I’m passionate and versatile  Full Stack Developer specializing in responsive front-end designs, efficient back-end systems, and end-to-end web application solutions.
+                I&apos;m passionate and versatile  Full Stack Developer specializing in responsive front-end designs, efficient back-end systems, and end-to-end web application solutions.
               </p>
               {/* btn and socials */}
               <div className="flex flex-col xl:flex-row items-center gap-8">
