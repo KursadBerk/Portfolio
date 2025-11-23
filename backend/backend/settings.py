@@ -35,6 +35,7 @@ DEBUG=env('DEBUG')
 
 ALLOWED_HOSTS = [
     "portfolio-btig.onrender.com",
+    "berk-portfolio-ten.vercel.app"
     "localhost",
 ]
 
