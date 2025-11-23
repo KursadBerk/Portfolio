@@ -100,7 +100,7 @@ const Contact = () => {
 
     if (Object.keys(errors).length === 0) {
       try {
-        const response = await fetch('http://localhost:8000/api/contact/', {
+        const response = await fetch('https://portfolio-btig.onrender.com/api/contact/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
