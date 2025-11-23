@@ -38,7 +38,8 @@ ALLOWED_HOSTS = []
 #allowed sites to access api
 CORS_ALLOWED_ORIGINS = [
     "https://berk-portfolio-ten.vercel.app",
-    "https://localhost:3000"
+    "https://localhost:3000",
+    "https://portfolio-btig.onrender.com"
 ]
 
 
