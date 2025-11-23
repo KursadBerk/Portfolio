@@ -8,29 +8,24 @@ import json
 
 
 def send_email_to_me(firstname, lastname, service, email, message, phone):
-    
-    
-
     subject = "You have a new Job!"
 
     message = f"""
-
         <p>Client: {firstname} {lastname}, </p>
         <p>Job Type : {service} </p>
         <p>Client email: {email} </p>
-        <p> {message} </p>
-        <p>Phone: {phone} </p>
-        
-
+        <p>{message}</p>
+        <p>Phone: {phone}</p>
     """
-    sender = settings.EMAIL_HOST_USER
-    receiver = [str(settings.EMAIL_HOST_USER)]
+
+    sender = settings.DEFAULT_FROM_EMAIL
+    receiver = [settings.DEFAULT_FROM_EMAIL]
 
     send_mail(
         subject,
-        "",
+        "",  # plain text body (optional)
         sender,
         receiver,
-        html_message=message,  # Use HTML for better formatting
+        html_message=message,
         fail_silently=False,
     )
