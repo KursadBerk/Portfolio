@@ -34,7 +34,8 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG=env('DEBUG')
 
 ALLOWED_HOSTS = [
-    "portfolio-btig.onrender.com",
+    "portfolio-btig.onrender",
+    "localhost",
 ]
 
 CORS_ALLOWED_ORIGINS = [
@@ -45,6 +46,7 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "https://berk-portfolio-ten.vercel.app",
+    "http://localhost:8000",
 ]
 
 
