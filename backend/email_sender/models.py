@@ -7,7 +7,7 @@ from django.core.validators import MinLengthValidator
 
 # Create a custom validator for the allowed characters (letters, numbers, underscores, and dots)
 name_validator = RegexValidator(
-    regex=r'^[A-Za-z0-9_\.]+$',
+    regex=r'^[A-Za-zÇçĞğİıÖöŞşÜü0-9_.\s]+$',
     message='Only letters, numbers, underscores, and dots are allowed.',
 )
 
