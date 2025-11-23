@@ -34,7 +34,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG=env('DEBUG')
 
 ALLOWED_HOSTS = [
-  "https://portfolio-btig.onrender.com"
+  "portfolio-btig.onrender.com"
 ]
 
 #allowed sites to access api
