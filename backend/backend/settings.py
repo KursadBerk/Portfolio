@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 import environ
 from pathlib import Path
+import os
 
 env = environ.Env(
     #set casting, default value
@@ -36,7 +37,8 @@ ALLOWED_HOSTS = []
 
 #allowed sites to access api
 CORS_ALLOWED_ORIGINS = [
-    env("HOST"),
+    "https://berk-portfolio-ten.vercel.app",
+    "https://localhost:3000"
 ]
 
 
@@ -132,6 +134,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
