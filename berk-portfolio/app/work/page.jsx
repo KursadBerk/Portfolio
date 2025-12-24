@@ -19,10 +19,10 @@ const projects = [
   {
     num: '01',
     category: 'frontend',
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nam eveniet dicta.",
-    stack: [{ name:"Html 5"}, {name: "Css 3"}, {name:"Javascript"}],
-    image: '/',
-    live: "",
+    description: "Responsive website development from Figma design with backend integration, delivering a dashboard on a strict deadline.\nUSERNAME: testuser1@example.com\nPASSWORD: Password123!",
+    stack: [{ name:"Next.js"}, {name: "Tailwind CSS v4"}, {name:"TypeScript"}],
+    image: '/maglo_pic.png',
+    live: "https://maglo-gilt.vercel.app/login",
     github: "",
   },
   {
@@ -77,7 +77,7 @@ const Work = () => {
                       group-hover:text-accent transition-all duration-500 capitalize'>{project.category} project
                     </h2>
                   {/* project description */}
-                    <p className='text-white/60'>{project.description}</p>
+                    <p className='text-white/60 whitespace-pre-line'>{project.description}</p>
                     {/* stack */}
                     <ul className='flex gap-4'>
                       {project.stack.map((item,index)=>{
@@ -95,7 +95,8 @@ const Work = () => {
                     {/* buttons */}
                     <div className='flex items-center gap-4'>
                       {/* live project button  */}
-                      <Link href={project.live}>
+                      <Link target="_blank" 
+                             href={project.live}>
                         <TooltipProvider delayDuration={100}> 
                           <Tooltip>
                             <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
@@ -134,7 +135,7 @@ const Work = () => {
                           <div className='absolute top-0 bottom-0 w-full h-full bg-black 10 z-10'></div>
                           {/* image */}
                           <div className='relative w-full h-full'>
-                            <Image src={project.image} fill className="object-cover" alt=""/>
+                            <Image src={project.image} fill className="object-cover z-20" alt="" />
                           </div>
                         </div>
                       </SwiperSlide>

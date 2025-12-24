@@ -8,7 +8,7 @@ import React, { useState } from "react";
 
 const stats = [
     {
-        num: 3,
+        num: 4,
         text: "Years of experience",
         isInfinity: false,
     },
