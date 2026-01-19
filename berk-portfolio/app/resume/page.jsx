@@ -1,8 +1,8 @@
 'use client';
 
 import {FaHtml5, FaCss3, FaJs, FaPython, FaReact} from 'react-icons/fa';
-import {DiDjango} from 'react-icons/di';
-import {SiTailwindcss,SiNextdotjs} from 'react-icons/si';
+import {DiDjango, DiDocker, DiPostgresql, DiSqllite} from 'react-icons/di';
+import {SiTailwindcss,SiNextdotjs, SiDotnet, SiTypescript, SiKubernetes} from 'react-icons/si';
 import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs';
 import {Tooltip, TooltipContent,TooltipProvider, TooltipTrigger,} from '@/components/ui/tooltip';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -166,6 +166,30 @@ const skills = {
     {
       icon: <DiDjango />,
       name:"django",
+    },
+    {
+      icon: <SiDotnet />,
+      name:".NET",
+    },
+       {
+      icon: <SiTypescript />,
+      name:"TypeScript",
+    },
+       {
+      icon: <DiDocker />,
+      name:"Docker",
+    },
+       {
+      icon: <SiKubernetes />,
+      name:"Kubernetes",
+    },
+       {
+      icon: <DiPostgresql />,
+      name:"Postgresql",
+    },
+       {
+      icon: <DiSqllite />,
+      name:"Sqllite",
     },
   ],
 };

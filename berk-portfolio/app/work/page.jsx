@@ -27,9 +27,17 @@ const projects = [
   },
   {
     num: '02',
-    category: 'frontend',
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nam eveniet dicta.",
-    stack: [{ name:"Html 5"}, {name: "Css 3"}, {name:"Javascript"}],
+    category: 'Carties Coming Soon...',
+    description: "Online Car Auction website with microservices and real time events(notifications, live bidding etc.)",
+   stack: [
+      { name: ".NET10" },
+      { name: "Postgresql" },
+      { name: "MongoDB" },
+      { name: "RabbitMQ" },
+      { name: "Kubernetes" },
+      { name: "Docker" },
+      { name: "Identity Service" }
+    ],
     image: '/',
     live: "",
     github: "",
@@ -79,16 +87,22 @@ const Work = () => {
                   {/* project description */}
                     <p className='text-white/60 whitespace-pre-line'>{project.description}</p>
                     {/* stack */}
-                    <ul className='flex gap-4'>
-                      {project.stack.map((item,index)=>{
-                        return(
-                          <li key={index} className='text-xl text-accent'>
+                    <ul className="flex flex-wrap gap-4">
+                      {project.stack.map((item, index) => (
+                        <React.Fragment key={index}>
+                          
+                          {/* Insert line break BEFORE index 3 */}
+                          {index === 3 && (
+                            <li key={`break-${index}`} className="basis-full h-0 p-0 m-0"></li>
+                          )}
+
+                          <li className="text-xl text-accent">
                             {item.name}
-                            {/* remove the last comma*/}
-                            {index !== project.stack.length -1 && ","}
+                            {index !== project.stack.length - 1 && ","}
                           </li>
-                        )
-                      })}
+
+                        </React.Fragment>
+                      ))}
                     </ul>
                     {/* border */}
                     <div className="border border-white/20"></div>
