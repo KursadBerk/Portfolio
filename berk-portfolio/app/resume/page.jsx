@@ -58,7 +58,7 @@ const experience ={
     {
       company: "Ercan International Airport",
       position: "Electronic Systems Engineer",
-      duration: "2025-Now",
+      duration: "2025-2026",
     }
     ,
     {
