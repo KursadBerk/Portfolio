@@ -13,12 +13,12 @@ const stats = [
         isInfinity: false,
     },
     {
-        num: 3,
+        num: 2,
         text: "Projects completed",
         isInfinity: false,
     },
     {
-        num: 12,
+        num: 13,
         text: "Technologies mastered",
         isInfinity: false,
     },
