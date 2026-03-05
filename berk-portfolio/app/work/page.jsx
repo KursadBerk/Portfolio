@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import {motion} from 'motion/react';
 import React, {useState} from 'react';
@@ -28,7 +28,7 @@ const projects = [
   {
     num: '02',
     category: 'Carties Coming Soon...',
-    description: "Online Car Auction website with microservices and real time events(notifications, live bidding etc.)",
+    description: "Online Car Auction website with microservices and real time events(notifications, live bidding etc.)\nUSER_1: bob\nUSER1_PASSWORD: Pass123$\nUSER_2: alice\nUSER2_PASSWORD: Pass123$",
    stack: [
       { name: ".NET10" },
       { name: "Postgresql" },
@@ -38,19 +38,11 @@ const projects = [
       { name: "Docker" },
       { name: "Identity Service" }
     ],
-    image: '/',
-    live: "",
+    image: '/carsties_pic.png',
+    live: "https://app.carsties-berk.store/",
     github: "",
   },
-  {
-    num: '03',
-    category: 'frontend',
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nam eveniet dicta.",
-    stack: [{ name:"Html 5"}, {name: "Css 3"}, {name:"Javascript"}],
-    image: '/',
-    live: "",
-    github: "",
-  },
+
 ]
 
 const Work = () => {
