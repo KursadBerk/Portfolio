@@ -25,23 +25,23 @@ const projects = [
     live: "https://maglo-gilt.vercel.app/login",
     github: "",
   },
-  {
-    num: '02',
-    category: 'Carties Coming Soon...',
-    description: "Online Car Auction website with microservices and real time events(notifications, live bidding etc.)\nUSER_1: bob\nUSER1_PASSWORD: Pass123$\nUSER_2: alice\nUSER2_PASSWORD: Pass123$",
-   stack: [
-      { name: ".NET10" },
-      { name: "Postgresql" },
-      { name: "MongoDB" },
-      { name: "RabbitMQ" },
-      { name: "Kubernetes" },
-      { name: "Docker" },
-      { name: "Identity Service" }
-    ],
-    image: '/carsties_pic.png',
-    live: "https://app.carsties-berk.store/",
-    github: "",
-  },
+  // {
+  //   num: '02',
+  //   category: 'Carties Coming Soon...',
+  //   description: "Online Car Auction website with microservices and real time events(notifications, live bidding etc.)\nUSER_1: bob\nUSER1_PASSWORD: Pass123$\nUSER_2: alice\nUSER2_PASSWORD: Pass123$",
+  //  stack: [
+  //     { name: ".NET10" },
+  //     { name: "Postgresql" },
+  //     { name: "MongoDB" },
+  //     { name: "RabbitMQ" },
+  //     { name: "Kubernetes" },
+  //     { name: "Docker" },
+  //     { name: "Identity Service" }
+  //   ],
+  //   image: '/carsties_pic.png',
+  //   live: "https://app.carsties-berk.store/",
+  //   github: "",
+  // },
 
 ]
 
