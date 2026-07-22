@@ -18,11 +18,11 @@ import WorkSliderBtns from '@/components/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'frontend',
-    description: "Responsive website development from Figma design with backend integration, delivering a dashboard on a strict deadline.\nUSERNAME: testuser1@example.com\nPASSWORD: Password123!",
-    stack: [{ name:"Next.js"}, {name: "Tailwind CSS v4"}, {name:"TypeScript"}],
-    image: '/maglo_pic.png',
-    live: "https://maglo-gilt.vercel.app/login",
+    category: 'E-commerce',
+    description: "Full Stack E-commerce project",
+    stack: [{ name:".NET"}, {name: "React"}, {name:"TypeScript"}, {name:"Redux"},{name:"Stripe"}],
+    image: '/e_commerce.png',
+    live: "https://restore-a7bycudbenbzb3d4.francecentral-01.azurewebsites.net/",
     github: "",
   },
   {
