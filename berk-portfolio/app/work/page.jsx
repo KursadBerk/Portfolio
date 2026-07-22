@@ -19,7 +19,7 @@ const projects = [
   {
     num: '01',
     category: 'E-commerce',
-    description: "Full Stack E-commerce project test user: bob@test.com password: Pa$$w0rd ",
+    description: "Full Stack E-commerce project\nTest User: bob@test.com\nPassword: Pa$$w0rd\nTest Card No: 4242 4242 4242 4242\nExp Date: 12/36\nCV: 123",
     stack: [{ name:".NET"}, {name: "React"}, {name:"TypeScript"}, {name:"Redux"},{name:"Stripe"}],
     image: '/e_commerce.png',
     live: "https://restore-a7bycudbenbzb3d4.francecentral-01.azurewebsites.net/",
